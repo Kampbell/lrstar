@@ -36,11 +36,11 @@ ON UNIX/LINUX SYSTEMS:
 
    1. Specify UNIX and LRSTAR on the command line:
 
-      gcc *.cpp -lstdc++ -w -DUNIX -DLRSTAR -olrstar
+      g++ *.cpp --std=c++11 -w -DUNIX -DLRSTAR -olrstar
 
    2. Specify UNIX and DFASTAR on the command line:
 
-      gcc *.cpp -lstdc++ -w -DUNIX -DDFASTAR -odfastar
+      g++ *.cpp --std=c++11 -w -DUNIX -DDFASTAR -odfastar
 
 ---------------------------------------------------------
 
